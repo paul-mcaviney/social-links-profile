@@ -71,11 +71,25 @@ h6 {
 /*        Start of Stylesheet         */
 /**************************************/
 
+root {
+  /* custom properties */
+  --primary_green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark_grey: hsl(0, 0%, 12%);
+  --off_black: hsl(0, 0%, 8%);
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
