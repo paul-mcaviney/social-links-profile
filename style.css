@@ -71,7 +71,7 @@ h6 {
 /*        Start of Stylesheet         */
 /**************************************/
 
-root {
+:root {
   /* custom properties */
   --primary_green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
@@ -84,6 +84,38 @@ root {
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "slnt" 0;
+}
+
+body {
+  background-color: var(--off_black);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--grey);
+  max-width: 350px;
+  padding: 2em;
+  border-radius: 1.5em;
+}
+
+.location {
+  color: var(--primary_green);
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 125px;
+}
+
+.social-link {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
 }
 
 .attribution {
