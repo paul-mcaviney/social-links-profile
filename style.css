@@ -97,25 +97,49 @@ body {
 }
 
 .card {
-  background-color: var(--grey);
-  max-width: 350px;
-  padding: 2em;
+  background-color: var(--dark_grey);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  width: 300px;
+  padding: 1.5em 1em;
   border-radius: 1.5em;
-}
-
-.location {
-  color: var(--primary_green);
+  font-size: 13px;
+  margin: 0.5em 10px;
 }
 
 .headshot {
   border-radius: 50%;
-  width: 125px;
+  width: 90px;
+  /* margin-bottom: 10px; */
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+.location {
+  color: var(--primary_green);
+  font-weight: 500;
+}
+
+.description {
+  margin-bottom: 10px;
 }
 
 .social-link {
   display: block;
   color: var(--white);
   text-decoration: none;
+  background-color: var(--grey);
+  width: 90%;
+  text-align: center;
+  padding: 0.8em;
+  border-radius: 10px;
+  font-weight: 500;
 }
 
 .attribution {
